@@ -1,0 +1,6 @@
+/dataset/
+/pdfs/
+/sources/
+__pycache__/
+*.pyc
+.venv
