@@ -1,0 +1,13 @@
+pandas
+pdfplumber
+PyMuPDF 
+transformers 
+sentence-transformers
+camelot-py
+python-docx
+jpype1
+tabula-py
+gdown  
+pydrive
+matplotlib
+seaborn
