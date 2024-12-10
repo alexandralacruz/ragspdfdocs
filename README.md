@@ -1,34 +1,22 @@
 ## Convert several RAES reports and generata an analyis of them
 
 The structure is somethig like:
-
+```
 RAG PDF/
 ├── .venv
-
 ├── dataset/
-
 ├── pdfs/
-
 ├── sources/
-
 ├── src/
-
 ├── config.py
-
 ├── converter.py
-
 ├── donwload_file.py
-
 ├── table_out.py
-
 .gitgitignore
-
 RAGPdfs.ipynb
-
 README.md
-
 requirements.txt
-
+```
 ## dataset/
 
 ## pdfs/ 
