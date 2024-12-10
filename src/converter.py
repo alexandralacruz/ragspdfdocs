@@ -17,23 +17,6 @@ def convert_docx_to_pdf(docx_path, pdf_path):
     except Exception as e:
         print(f"An error occurred while converting {docx_path}: {e}")
 
-# Function to read a folder with .docx files and convert them to PDFs
-# def convert_folder_of_docx_to_pdf(docx_folder, pdf_folder):
-#     if not os.path.exists(pdf_folder):
-#         os.makedirs(pdf_folder)
-    
-#     for filename in os.listdir(docx_folder):
-#         if filename.endswith(".docx"):
-#             docx_path = os.path.join(docx_folder, filename)
-#             pdf_filename = filename.replace(".docx", ".pdf")
-#             pdf_path = os.path.join(pdf_folder, pdf_filename)
-            
-#             #print(f"Converting {docx_path} to {pdf_path}...")
-#             convert_docx_to_pdf(docx_path, pdf_path)
-    
-#     #print("All files converted.")
-
-
 
 def convert_folder_of_docx_to_pdf(docx_folder, pdf_folder):
     # Ensure the PDF folder exists, if not create it
